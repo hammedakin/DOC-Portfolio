@@ -26,23 +26,23 @@ const Navbar = () => {
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon toggler"> 
-          <box-icon class="box-icon" size='3rem' color=" #880e4f" name="menu" type="logo"></box-icon>
+          <box-icon class="box-icon" size='3rem' color=" #0197f6" name="menu" type="logo"></box-icon>
           </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <NavLink class="nav-link" to="/case-study">
+            <li>
+              <NavLink tag={Link} activeClassName="active1"  to="/case-study">
                 CASE STUDY
               </NavLink>
             </li>
-            <li class="nav-item">
-              <NavLink class="nav-link" to="/articles">
+            <li>
+              <NavLink tag={Link} activeClassName="active1"  to="/articles">
                 ARTICLES 
               </NavLink>
             </li>
-            <li class="nav-item">
-              <NavLink class="nav-link" to="/about">
+            <li>
+              <NavLink tag={Link} activeClassName="active1" class="nav-link" to="/about">
                 ABOUT
               </NavLink>
             </li>

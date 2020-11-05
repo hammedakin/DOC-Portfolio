@@ -21,23 +21,26 @@ body {
   background: #f7fafc !important;
   min-height: 120px;
   border-bottom: #000000 3px solid;
+  box-shadow: none!important;
   
 }
 
 .navbar a {
   font-size: 1rem;
   color: #0197f6 !important;
-  padding-left: 1rem !important;
+  padding-left: 1.5rem !important;
   font-family: "Montserrat", sans-serif;
-  text-align: center;
+  
+  
 }
 
-.active {
+.active1 {
   background-image: url("./components/Navbar/Page-Indicator-MicInt.gif");
-  background-repeat: no-repeat;
-  background-size: 30px;
+   background-repeat: no-repeat;
+  background-size: 25px;
+  background-position-x: left;
+    background-position-y: center; 
   text-align: center;
-  height: -7rem !important;
 }
 
 nav .toggler {
@@ -78,13 +81,6 @@ border-radius: 20px!important;
 
 /* Homecasestudy */
 
-
-.Homecasestudy {
-  /* margin-top: 5rem !important;
-  margin-bottom: 5rem !important; */
-
-}
-
 .Homecasestudy .card {
   color: white;
   width: 20rem;
@@ -97,69 +93,12 @@ border-radius: 20px!important;
   font-size: 0.8rem !important;
 }
 
-.Homecasestudy .card a:hover {
+.Homecasestudy .card a:hover, .Homecasestudy .card a:active {
   background-color: #0197f6!important;
   color: #ffffff;
-  border: 0;
 }
 
-#service1 {
-  background-image: linear-gradient(#00000057, #00000057),
-    url("./components/HomeCaseStudy/Mockup1.png");
 
-  background-size: cover;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-#service1:hover,
-#service1:focus {
-  background-image: linear-gradient(#0077fdb3, #0077fdb3),
-    url("./components/HomeCaseStudy/Mockup1.png");
-  background-size: cover;
-}
-
-#service2 {
-  background-image: linear-gradient(#00000057, #00000057),
-    url("./components/HomeCaseStudy/Pricist\ Mockup\ 2.png");
-  background-size: cover;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-#service2:hover,
-#service2:focus {
-  background-image: linear-gradient(#0077fdb3, #0077fdb3),
-    url("./components/HomeCaseStudy/Pricist\ Mockup\ 2.png");
-  background-size: cover;
-}
-
-#service3 {
-  background-image: linear-gradient(#00000057, #00000057),
-    url("./components/HomeCaseStudy/DOCLogo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 10rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-#service3:hover,
-#service3:focus {
-  background-image: linear-gradient(#0077fdb3, #0077fdb3),
-    url("./components/HomeCaseStudy/DOCLogo.png");
-  background-size: cover;
-}
-/* Homecasestudy */
-
-
-
-
-
-
-
-
-/* Demo Demo Demo*/
 .Homecasestudy #service {
   background-color: transparent;
   box-shadow: none;
@@ -169,8 +108,6 @@ border-radius: 20px!important;
 height: 15rem;
 width: 18rem;
 
-
-
 }
 
 .Homecasestudy .card-bg:hover,
@@ -178,18 +115,12 @@ width: 18rem;
  {
   background-color: #0077fdb3;
   
-
-
 }
 
-
-/* Demo Demo Demo */
-
-
-
-
-
-
+.Homecasestudy h6.card-title {
+  text-transform: uppercase;
+}
+/* Homecasestudy */
 
 
 /* Partners */
@@ -199,148 +130,127 @@ width: 18rem;
 }
 
 .partners .card {
-  color: #ffffff;
-  text-align: center !important;
+  color: white;
+  width: 20rem;
+
 }
 
-.partners .hide {
-  display: none;
-}
-
-#partners1 {
-  background-image: /* linear-gradient(#00000057, #00000057),*/ url("./components/Partners/Choice\ cook\ logo@2x.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: auto !important;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-#partners1:hover,
-#partners1:focus {
-  background-image: linear-gradient(#0077fdb3, #0077fdb3),
-    url("./components/Partners/Choice\ cook\ logo@2x.png");
-}
-
-#partners2 {
-  background-image: /* linear-gradient(#00000057, #00000057),*/ url("./components/Partners/Wristworthy\ Logo@2x.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: auto !important;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-#partners2:hover,
-#partners2:focus {
-  background-image: linear-gradient(#0077fdb3, #0077fdb3),
-    url("./components/Partners/Wristworthy\ Logo@2x.png");
-}
-
-#partners3 {
-  background-image: /* linear-gradient(#00000057, #00000057),*/ url("./components/Partners/Sahara\ farms\ logo@2x.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: auto !important;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-#partners3:hover,
-#partners3:focus {
-  background-image: linear-gradient(#0077fdb3, #0077fdb3),
-    url("./components/Partners/Sahara\ farms\ logo@2x.png");
-}
-
-/* Partners */
-
-/* casestudyproductivity */
-
-.casestudyproductivity .card {
-  background-color: transparent !important;
-
-  border: 0 !important;
-}
-
-.casestudyproductivity p {
-  margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
-}
-
-.casestudyproductivity h4 {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-}
-
-.casestudyproductivity a {
-  border-radius: 20px;
-}
-
-.casestudyproductivity video {
-  border: none !important;
-}
-
-.casestudyproductivity video:hover,
-.casestudyproductivity video:focus {
-  background-image: linear-gradient(#0077fdb3, #0077fdb3);
-  background-size: cover;
-}
-
-/* casestudyproductivity */
-
-/* articles */
-.articles {
-  margin-top: 5rem !important;
-}
-
-.articles .card {
-  color: #ffffff;
-  text-align: center !important;
-}
-
-.articles .card a {
+.partners .card a {
   border-radius: 20px;
   font-weight: 600;
   font-size: 0.8rem !important;
 }
 
-.articles .card a:hover {
-  background-color: #0197f6;
+.partners .card a:hover, .partners .card a:active {
+  background-color: #0197f6!important;
   color: #ffffff;
-  border: 0;
 }
 
-#article1 {
-  background-image: linear-gradient(#00000057, #00000057),
-    url("./components/Articles/111.png");
 
-  background-size: cover;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.partners #service {
+  background-color: transparent;
+  box-shadow: none;
+}
+.partners h6 {
+  font-size: 0.8rem!important;
+  
 }
 
-#article1:hover,
-#article1:focus {
-  background-image: linear-gradient(#0077fdb3, #0077fdb3),
-    url("./components/Articles/111.png");
-  background-size: cover;
+.partners img{
+height: 15rem;
+width: 20rem;
+
+
 }
 
-#article2 {
-  background-image: linear-gradient(#00000057, #00000057),
-    url("./components/Articles/222.png");
-
-  background-size: cover;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.partners .card-bg:hover,
+.partners .card-bg:focus, .partners img:hover
+ {
+  background-color: #0077fdb3;
+  
 }
 
-#article2:hover,
-#article2:focus {
-  background-image: linear-gradient(#0077fdb3, #0077fdb3),
-    url("./components/Articles/222.png");
+/* Partners */
+
+/* casestudy */
+
+.casestudy .card {
+  background-color: transparent !important;
+
+  border: 0 !important;
+}
+
+.casestudy p {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.casestudy h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.casestudy a {
+  border-radius: 20px;
+}
+
+.casestudy .card.mt-3 {
+  border: none !important;
+  box-shadow: none!important;
+}
+
+.casestudy .card.mt-5 {
+  border: none !important;
+  box-shadow: none!important;
+}
+
+/* .casestudy video:hover,
+.casestudy video:focus {
+  background-image: linear-gradient(#0077fdb3, #0077fdb3);
   background-size: cover;
+} */
+
+/* casestudy */
+
+
+/* article */
+
+.article .card {
+  color: white;
+  width: 20rem;
+  background-color: transparent;
+}
+
+.article .card a {
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.8rem !important;
+}
+
+.article .card a:hover, .article .card a:active {
+  background-color: #0197f6!important;
+  color: #ffffff;
+}
+
+
+.article #article {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.article img{
+height: 15rem;
+width: 25rem;
+
+}
+
+.article .card-bg:hover,
+.article .card-bg:focus, .article img:hover
+ {
+  background-color: #0077fdb3;
+
+
 }
 
 /* article */
@@ -372,3 +282,131 @@ footer .footer {
 }
 
 /* Footer */
+
+
+/* Media Query for Tablet device */
+/* Media Query for Tablet device */
+
+@media (max-width: 768px) { 
+/* Homecasestudy */
+
+.Homecasestudy .card {
+  color: white;
+  width: 15rem;
+
+}
+
+.Homecasestudy .card a {
+  padding: 0.5rem!important;
+  font-size: 0.5rem !important;
+}
+
+.Homecasestudy img{
+height: 10rem;
+width: 15rem;
+
+}
+
+
+
+/* Homecasestudy */
+
+/* partners */
+
+.partners .card {
+  color: white;
+  width: 15rem;
+
+}
+
+.partners img{
+height: 10rem;
+width: 13rem;
+
+}
+.partners h6 {
+  font-size: 0.7rem!important;
+  
+}
+
+
+/* partners */
+
+
+
+  }
+  
+  
+  /* Media Query for Tablet device */
+  /* Media Query for Tablet device */
+  
+  
+  /* Media Query for mobile device */
+  /* Media Query for mobile device */
+  
+  
+  @media screen and (max-width: 580px) {
+
+    /* Homecasestudy */
+    .Homecasestudy .card {
+      color: white;
+      width: 20rem;
+      margin-left: auto!important;
+      margin-right: auto!important;
+    }
+    
+    .Homecasestudy .card a {
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.8rem !important;
+    }
+ 
+    .Homecasestudy img{
+    height: 15rem;
+    width: 18rem;
+    
+    }
+    
+  /* Homecasestudy */
+
+
+    .partners {
+      margin-top: 5rem !important;
+    }
+    
+    .partners .card {
+      color: white;
+      width: 20rem;
+      margin-left: auto!important;
+      margin-right: auto!important;
+      margin-bottom: 1rem;
+    
+    }
+    
+    .partners .card a {
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.8rem !important;
+    }
+  
+    .partners h6 {
+      font-size: 0.8rem!important;
+      
+    }
+    
+    .partners img{
+    height: 15rem;
+    width: 20rem;
+    
+    
+    }
+   
+    
+    /* Partners */
+    
+    
+  
+  }
+  
+  /* Media Query for mobile device */
+  /* Media Query for mobile device */

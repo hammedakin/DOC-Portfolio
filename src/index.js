@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'boxicons'
 import 'mdbreact/dist/css/mdb.css'
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

@@ -10,11 +10,13 @@
     "bootstrap": "^4.5.2",
     "boxicons": "^2.0.5",
     "jquery": "^3.5.1",
+    "marked": "^1.2.2",
     "mdbootstrap": "^4.19.1",
     "mdbreact": "^4.27.0",
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-pure-loaders": "^3.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },

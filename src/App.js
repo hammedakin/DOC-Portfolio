@@ -13,8 +13,7 @@ import CaseStudyProductivity from './components/CaseStudyProductivity/CaseStudyP
 import PageNotFound from './PageNotFound'
 import Login from './components/Login/Login'
 import Admin from './components/Admin/Admin'
-import Demo from './components/ddd'
-
+import CaseStudy from './components/CaseStudy/CaseStudy'
 
 
 function App() {
@@ -44,8 +43,7 @@ function App() {
         <Route exact path="/case-study1" component={CaseStudyPricist}/>
         
         <Route exact path="/case-study2" component={CaseStudyProductivity}/>
-
-        <Route exact path="/demo" component={Demo}/>
+        <Route exact path="/case-study/:id" component={CaseStudy}/>
         
         <Route exact path="/admin" component={Login}/>
 

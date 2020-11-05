@@ -10,7 +10,7 @@ import vid1 from "./pricist Prototype walkthrough.mp4";
 const CaseStudyPricist = () => {
   return (
     <>
-      <section class="casestudyproductivity" id="casestudyproductivity">
+      <section class="casestudy" id="casestudy">
         <div class="container text-justify">
           <div class="title mt-5 text-center">
             <h4> Pricist; A Price Comparison Tool </h4>
@@ -160,7 +160,7 @@ const CaseStudyPricist = () => {
           <div class="card mt-5">
             <a
               type="button"
-              class="btn btn-primary mx-auto shadow pl-4 pr-4 " href="#casestudyproductivity"
+              class="btn btn-primary mx-auto shadow pl-4 pr-4 " href="#casestudy"
             >
               BACK TO TOP
             </a>

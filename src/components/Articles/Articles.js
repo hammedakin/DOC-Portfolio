@@ -1,45 +1,51 @@
-import React from "react";
-import {Link} from 'react-router-dom'
+import React, {useEffect, useState} from "react";
+import axios from 'axios'
+const HomeCaseStudy = () => {
+  const [articles,setArticles] = useState([])
+  const fetchArticles =()=>{
+      axios.get('http://doc-portfolio.herokuapp.com/articles').then(response=>{
+          console.log(response)
+          setArticles(response.data)
+      }).catch(error=>{
+        console.log(error.response)
+      })
+  }
+  useEffect(()=>{
+    fetchArticles()
+  }, articles)
+  const article = articles.map(item=>{
+    return(
+      <div class="col-md-6 mt-5">
+              <div class="card card-image h-100 w-100" id="article">
+                <div class=" text-center d-flex align-items-center py-5 px-4 mx-auto">
+                  <div class="view overlay zoom ">
+                    <img src={item.image.url} class="img-fluid" alt="zoom" />
 
-const Articles = () => {
+                    <div class="mask flex-center waves-effect waves-light card-bg">
+                      <div class="">
+                        <h6 class="card-title pt-2">
+                          <strong>{item.title}</strong>
+                        </h6>
+
+                        <a href={item.articleLink} class="btn btn-light mt-2" target="_blank">
+                          VIEW CASE STUDY
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    )
+  })
   return (
     <>
-      <section class="articles">
+      <section class="article">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <div class="card card-image zoom h-100" id="article1">
-                <div class=" text-center d-flex align-items-center py-5 mx-auto">
-                  <div class="hovers">
-                    <h6 class="card-title pt-2">
-                      <strong>BARRIERS TO IDEATION; A SUMMARY</strong>
-                    </h6>
 
-                    <a href="https://www.linkedin.com/pulse/barriers-ideation-summary-david-omogunsoye/?trackingId=HP3s1TCE%2B6XtLZ6SivJvuw%3D%3D" class="btn btn-light mt-2" target="_blank">
-                      READ ARTICLE
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+          {article}
 
-            <div class="col-md-6">
-              <div class="card card-image zoom h-100" id="article2">
-                <div class=" text-center d-flex align-items-center py-5 mx-auto">
-                  <div class="hovers">
-                    <h6 class="card-title pt-2">
-                      <strong>DESIGNING FOR PEAK EXPERIENCE</strong>
-                    </h6>
-
-                    <a href="https://www.linkedin.com/pulse/designing-peak-experience-david-omogunsoye/" class="btn btn-light mt-2" target="_blank">
-                      READ ARTICLE
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            
           </div>
         </div>
       </section>
@@ -47,4 +53,4 @@ const Articles = () => {
   );
 };
 
-export default Articles;
+export default HomeCaseStudy;

@@ -10,7 +10,7 @@ import vid1 from "./Improving productivity Video.mp4";
 const CaseStudyProductivity = () => {
   return (
     <>
-      <section class="casestudyproductivity" id="casestudyproductivity">
+      <section class="casestudy" id="casestudy">
         <div class="container text-justify">
           <div class="title mt-5 text-center">
             <h4> Improving Daily Productivity. </h4>
@@ -111,6 +111,7 @@ const CaseStudyProductivity = () => {
             </div>
           </div>
 
+
           <div>
             <p>
               As you may have gathered, this was largely a project that I
@@ -126,7 +127,7 @@ const CaseStudyProductivity = () => {
           </div>
 
           <div class="card mt-5">
-            <a type="button" class="btn btn-primary mx-auto shadow pl-4 pr-4 " href="#casestudyproductivity">
+            <a type="button" class="btn btn-primary mx-auto shadow pl-4 pr-4 " href="#casestudy">
               BACK TO TOP
             </a>
           </div>

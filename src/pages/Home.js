@@ -9,6 +9,7 @@ const Home = () => {
     return ( 
 
         <>
+        
         <Showcase/>
         <HomeCaseStudy/>
         <Partners/>
