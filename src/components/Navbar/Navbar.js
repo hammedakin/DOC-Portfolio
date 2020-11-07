@@ -42,7 +42,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink tag={Link} activeClassName="active1" class="nav-link" to="/about">
+              <NavLink tag={Link} activeClassName="active1" to="/about">
                 ABOUT
               </NavLink>
             </li>

@@ -1,0 +1,26 @@
+.spinner{
+    display: inline-block;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+.align-items-center {
+    align-items: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+.spinner img {
+    width: 30rem;
+   
+}
+
+@media screen and (max-width: 580px) {
+    .spinner img {
+        width: 20rem;
+       
+    }
+
+}

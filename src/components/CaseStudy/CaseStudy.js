@@ -7,6 +7,7 @@ const CaseStudy = (props) => {
     const fetchContent=()=>{
         axios.get(`http://doc-portfolio.herokuapp.com/case-studies/${props.match.params.id}`).then(response=>{
           console.log(response.data)
+          
           setContent(marked(response.data.content))
           setTitle(response.data.title)
         }).catch(error=>{

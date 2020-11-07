@@ -283,6 +283,60 @@ footer .footer {
 
 /* Footer */
 
+/* Media Query for Tablet device */
+/* Media Query for Tablet device */
+
+@media (max-width: 768px) { 
+  /* Homecasestudy */
+  
+  .Homecasestudy .card {
+    color: white;
+    width: 15rem;
+  
+  }
+  
+  .Homecasestudy .card a {
+    padding: 0.5rem!important;
+    font-size: 0.5rem !important;
+  }
+  
+  .Homecasestudy img{
+  height: 10rem;
+  width: 15rem;
+  
+  }
+  
+  
+  
+  /* Homecasestudy */
+  
+  /* partners */
+  
+  .partners .card {
+    color: white;
+    width: 15rem;
+  
+  }
+  
+  .partners img{
+  height: 10rem;
+  width: 13rem;
+  
+  }
+  .partners h6 {
+    font-size: 0.7rem!important;
+    
+  }
+  
+  /* partners */
+  
+    }
+    
+    
+    /* Media Query for Tablet device */
+    /* Media Query for Tablet device */
+
+
 
 /* Media Query for Tablet device */
 /* Media Query for Tablet device */

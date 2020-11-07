@@ -25,6 +25,7 @@ const Showcase = () => {
           </div>
         </div>
       </section>
+
     </>
   );
 };
