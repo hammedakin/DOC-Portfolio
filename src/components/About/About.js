@@ -153,12 +153,13 @@ const About = () => {
                 my courses and certifications.
               </p>
 
-              
+              <div class="here">
               <p>
                   Looking to collaborate? Hire me for a project? or you just
                   want to talk design? Please feel free to reach me through any
                   of the links below.
                 </p>
+            </div>
             </div>
 
 
