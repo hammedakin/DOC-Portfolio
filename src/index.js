@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'jquery'
 import 'popper.js'
+import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'boxicons'
