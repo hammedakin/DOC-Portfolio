@@ -19,8 +19,8 @@ const PageNotFound = () => {
                   src={img}
                 />
                 </div>
-                <h1> Sorry, Page not found</h1>
-                <h4 class="mt-5"> <Link to="/"> Click Here </Link> to go back Home</h4>
+                <h3> ooops, Page not found</h3>
+                <h5 class="mt-5"> <Link to="/"> Click Here </Link> to go back Home</h5>
             </div>
 
         </section>
