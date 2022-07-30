@@ -19,7 +19,7 @@ import CaseStudy from './components/CaseStudy/CaseStudy'
 function App() {
 
   let Nav
-  if(localStorage.getItem('token')){
+  if(localStorage.getItem('adtoken')){
     Nav=<AdminNav/>
   }
   else{
@@ -32,7 +32,7 @@ function App() {
     {Nav}
 
       <Switch>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/home" component={Home}/>
 
         <Route exact path="/case-study" component={CaseStudyPage}/>
 

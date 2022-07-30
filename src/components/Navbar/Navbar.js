@@ -31,17 +31,22 @@ const Navbar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
-            <li>
+            <li className="my-2">
+              <NavLink tag={Link} activeClassName="active1"  to="/home">
+                HOME
+              </NavLink>
+            </li>
+            <li className="my-2">
               <NavLink tag={Link} activeClassName="active1"  to="/case-study">
                 CASE STUDY
               </NavLink>
             </li>
-            <li>
+            <li className="my-2">
               <NavLink tag={Link} activeClassName="active1"  to="/articles">
                 ARTICLES 
               </NavLink>
             </li>
-            <li>
+            <li className="my-2">
               <NavLink tag={Link} activeClassName="active1" to="/about">
                 ABOUT
               </NavLink>

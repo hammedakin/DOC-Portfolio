@@ -6,14 +6,13 @@ const About = () => {
   return (
     <section class="about">
       <div class="container">
-        {/* <div class="row">
+        <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="text-justify mt-5 justify-content-center">
             <img
                   
                   style={{  margin: "3rem" }}
                   width="250"
-                  height="300"
                   alt="DOCLogo"
                   class="rounded mx-auto d-block"
                   src={img}
@@ -85,10 +84,10 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
 
-            <div class="text-justify mt-5 justify-content-center">
+            {/* <div class="text-justify mt-5 justify-content-center">
             <img
                   
                   style={{  margin: "3rem" }}
@@ -160,7 +159,7 @@ const About = () => {
                   of the links below.
                 </p>
             </div>
-            </div>
+            </div> */}
 
 
 
